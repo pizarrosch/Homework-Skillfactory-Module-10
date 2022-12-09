@@ -13,18 +13,32 @@
 // }
 
 // Task 2
-let x;
+// let x;
+//
+// switch (x) {
+//   case Number(x):
+//     console.log("х - число");
+//     break;
+//   case String(x):
+//     console.log("х - строка");
+//     break;
+//   case Boolean(x):
+//     console.log("х - логический тип");
+//     break;
+//   default:
+//     console.log("Тип х не определён")
+// }
 
-switch (x) {
-  case Number(x):
-    console.log("х - число");
-    break;
-  case String(x):
-    console.log("х - строка");
-    break;
-  case Boolean(x):
-    console.log("х - логический тип");
-    break;
-  default:
-    console.log("Тип х не определён")
-}
+
+//Task 3
+
+// const string = "Merry Christmas!"
+//
+// console.log(string.split('').reverse().join(''));
+
+//Task 4
+
+let min = 0;
+let max = 100;
+const result = Math.floor(Math.random() * (max - min + 1));
+console.log(result);
